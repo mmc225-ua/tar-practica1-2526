@@ -1,0 +1,4 @@
+source;share/interfaz_servicio_suma/environment/ament_prefix_path.sh
+source;share/interfaz_servicio_suma/environment/library_path.sh
+source;share/interfaz_servicio_suma/environment/path.sh
+source;share/interfaz_servicio_suma/environment/pythonpath.sh

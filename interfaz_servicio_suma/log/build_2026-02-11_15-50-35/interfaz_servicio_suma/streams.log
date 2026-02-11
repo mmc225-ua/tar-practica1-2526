@@ -1,0 +1,244 @@
+[0.013s] Invoking command in '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/practica_1/ros2_ws/install/servicio_suma:/workspace/practica_1/ros2_ws/install/primer_paquete:/workspace/practica_1/ros2_ws/install/p2pkg:/workspace/practica_1/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma -DCMAKE_INSTALL_PREFIX=/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.144s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.592s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.712s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.763s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.771s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.783s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.857s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.157s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.750s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.753s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.780s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.780s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.780s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.780s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.805s] -- Found PythonExtra: .so  
+[1.861s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.904s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.905s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_generator_c>;$<BUILD_INTERFACE:/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_generator_cpp>;$<BUILD_INTERFACE:/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_typesupport_introspection_cpp>;/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_generator_c;/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma/rosidl_generator_py
+[1.905s] -- Configured cppcheck exclude dirs and/or files: 
+[1.909s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.913s] -- Added test 'lint_cmake' to check CMake code style
+[1.916s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.930s] -- Added test 'uncrustify' to check C / C++ code style
+[1.930s] -- Configured uncrustify additional arguments: 
+[1.932s] -- Added test 'xmllint' to check XML markup files
+[1.935s] -- Configuring done
+[1.976s] -- Generating done
+[1.988s] -- Build files have been written to: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma
+[1.995s] Invoked command in '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/practica_1/ros2_ws/install/servicio_suma:/workspace/practica_1/ros2_ws/install/primer_paquete:/workspace/practica_1/ros2_ws/install/p2pkg:/workspace/practica_1/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma -DCMAKE_INSTALL_PREFIX=/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma
+[1.996s] Invoking command in '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/practica_1/ros2_ws/install/servicio_suma:/workspace/practica_1/ros2_ws/install/primer_paquete:/workspace/practica_1/ros2_ws/install/p2pkg:/workspace/practica_1/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake --build /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma -- -j8 -l8
+[2.041s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.052s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.060s] [  6%] Built target ament_cmake_python_copy_interfaz_servicio_suma
+[2.370s] running egg_info
+[2.370s] creating interfaz_servicio_suma.egg-info
+[2.371s] writing interfaz_servicio_suma.egg-info/PKG-INFO
+[2.371s] writing dependency_links to interfaz_servicio_suma.egg-info/dependency_links.txt
+[2.371s] writing top-level names to interfaz_servicio_suma.egg-info/top_level.txt
+[2.371s] writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[2.372s] [  6%] Built target interfaz_servicio_suma__cpp
+[2.374s] reading manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[2.374s] writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[2.375s] [  9%] [32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_generator_c.dir/rosidl_generator_c/interfaz_servicio_suma/srv/detail/add_two_ints__functions.c.o[0m
+[2.385s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.385s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.386s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.408s] [ 19%] Built target ament_cmake_python_build_interfaz_servicio_suma_egg
+[2.448s] [ 22%] [32m[1mLinking C shared library libinterfaz_servicio_suma__rosidl_generator_c.so[0m
+[2.489s] [ 22%] Built target interfaz_servicio_suma__rosidl_generator_c
+[2.501s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.503s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.504s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.684s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz_servicio_suma/srv/add_two_ints__type_support.cpp.o[0m
+[2.716s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz_servicio_suma/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[2.850s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.cpp.o[0m
+[2.952s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz_servicio_suma/srv/add_two_ints__type_support.cpp.o[0m
+[2.965s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz_servicio_suma/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[2.991s] [ 51%] [32m[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_c.so[0m
+[2.994s] [ 54%] [32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.c.o[0m
+[3.041s] [ 54%] Built target interfaz_servicio_suma__rosidl_typesupport_c
+[3.056s] [ 58%] [32m[1mLinking C shared library libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so[0m
+[3.058s] [ 61%] [32m[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_cpp.so[0m
+[3.091s] [ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c
+[3.105s] [ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_cpp
+[3.235s] [ 64%] [32m[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.332s] [ 64%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp
+[3.380s] [ 67%] [32m[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so[0m
+[3.386s] [ 70%] [32m[1mLinking CXX shared library libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so[0m
+[3.435s] [ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp
+[3.468s] [ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c
+[3.489s] [ 70%] Built target interfaz_servicio_suma
+[3.513s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.867s] [ 74%] Built target interfaz_servicio_suma__py
+[3.887s] [ 77%] [32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_generator_py.dir/rosidl_generator_py/interfaz_servicio_suma/srv/_add_two_ints_s.c.o[0m
+[3.995s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/libinterfaz_servicio_suma__rosidl_generator_py.so[0m
+[4.041s] [ 80%] Built target interfaz_servicio_suma__rosidl_generator_py
+[4.064s] [ 90%] [32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.064s] [ 90%] [32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.064s] [ 90%] [32mBuilding C object CMakeFiles/interfaz_servicio_suma__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_c.c.o[0m
+[4.184s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.184s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.184s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.233s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext
+[4.233s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_c__pyext
+[4.233s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext
+[4.246s] Invoked command in '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/practica_1/ros2_ws/install/servicio_suma:/workspace/practica_1/ros2_ws/install/primer_paquete:/workspace/practica_1/ros2_ws/install/p2pkg:/workspace/practica_1/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake --build /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma -- -j8 -l8
+[4.256s] Invoking command in '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/practica_1/ros2_ws/install/servicio_suma:/workspace/practica_1/ros2_ws/install/primer_paquete:/workspace/practica_1/ros2_ws/install/p2pkg:/workspace/practica_1/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake --install /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma
+[4.264s] -- Install configuration: ""
+[4.265s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/ament_index/resource_index/rosidl_interfaces/interfaz_servicio_suma
+[4.265s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma
+[4.265s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv
+[4.265s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail
+[4.265s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__functions.c
+[4.266s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.h
+[4.266s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__functions.h
+[4.266s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__struct.h
+[4.266s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/add_two_ints.h
+[4.266s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg
+[4.266s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_generator_c__visibility_control.h
+[4.267s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/library_path.sh
+[4.267s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/library_path.dsv
+[4.267s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_c.so
+[4.268s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_c.so" to ""
+[4.268s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma
+[4.268s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv
+[4.268s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail
+[4.268s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[4.268s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg
+[4.268s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.269s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so
+[4.269s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_c.so" to ""
+[4.269s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma
+[4.269s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv
+[4.269s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/add_two_ints.hpp
+[4.269s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail
+[4.269s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__builder.hpp
+[4.270s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__traits.hpp
+[4.270s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.hpp
+[4.270s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__struct.hpp
+[4.270s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg
+[4.270s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.270s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma
+[4.271s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv
+[4.271s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail
+[4.271s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.271s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/dds_fastrtps
+[4.271s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg
+[4.271s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.271s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so
+[4.272s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.272s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma
+[4.272s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv
+[4.272s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail
+[4.272s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[4.272s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.c
+[4.272s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg
+[4.272s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.272s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so
+[4.273s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_c.so" to ""
+[4.273s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_c.so
+[4.274s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_c.so" to ""
+[4.274s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma
+[4.274s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv
+[4.274s] -- Up-to-date: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail
+[4.274s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.274s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/include/interfaz_servicio_suma/interfaz_servicio_suma/srv/detail/add_two_ints__type_support.cpp
+[4.274s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so
+[4.275s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_introspection_cpp.so" to ""
+[4.275s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_cpp.so
+[4.275s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_typesupport_cpp.so" to ""
+[4.275s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/pythonpath.sh
+[4.275s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/pythonpath.dsv
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/PKG-INFO
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/top_level.txt
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma
+[4.276s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.277s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.277s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/libinterfaz_servicio_suma__rosidl_generator_py.so
+[4.277s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv
+[4.277s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints.py
+[4.277s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints_s.c
+[4.278s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/__init__.py
+[4.278s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/__init__.py
+[4.278s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_c.c
+[4.278s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.278s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.278s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/_interfaz_servicio_suma_s.ep.rosidl_typesupport_introspection_c.c
+[4.322s] Listing '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma'...
+[4.322s] Compiling '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/__init__.py'...
+[4.322s] Listing '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv'...
+[4.322s] Compiling '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/__init__.py'...
+[4.322s] Compiling '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/srv/_add_two_ints.py'...
+[4.327s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.327s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.327s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.328s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.328s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.329s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages/interfaz_servicio_suma/interfaz_servicio_suma_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.329s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_py.so
+[4.330s] -- Set runtime path of "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/lib/libinterfaz_servicio_suma__rosidl_generator_py.so" to ""
+[4.330s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts.idl
+[4.330s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts.srv
+[4.331s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts_Request.msg
+[4.331s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/srv/AddTwoInts_Response.msg
+[4.331s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/ament_index/resource_index/package_run_dependencies/interfaz_servicio_suma
+[4.331s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/ament_index/resource_index/parent_prefix_path/interfaz_servicio_suma
+[4.332s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/ament_prefix_path.sh
+[4.332s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/ament_prefix_path.dsv
+[4.332s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/path.sh
+[4.332s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/environment/path.dsv
+[4.333s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.bash
+[4.333s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.sh
+[4.333s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.zsh
+[4.333s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/local_setup.dsv
+[4.334s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.dsv
+[4.334s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/ament_index/resource_index/packages/interfaz_servicio_suma
+[4.334s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cExport.cmake
+[4.334s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cExport-noconfig.cmake
+[4.335s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cExport.cmake
+[4.335s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.335s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_cppExport.cmake
+[4.336s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.336s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.336s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cExport.cmake
+[4.337s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.337s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cExport.cmake
+[4.337s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cExport-noconfig.cmake
+[4.337s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cppExport.cmake
+[4.338s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.338s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cppExport.cmake
+[4.338s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_suma__rosidl_typesupport_cppExport-noconfig.cmake
+[4.339s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_pyExport.cmake
+[4.339s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/export_interfaz_servicio_suma__rosidl_generator_pyExport-noconfig.cmake
+[4.339s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake-extras.cmake
+[4.339s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.340s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.340s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_libraries-extras.cmake
+[4.340s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/ament_cmake_export_targets-extras.cmake
+[4.341s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.341s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.341s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_sumaConfig.cmake
+[4.341s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/cmake/interfaz_servicio_sumaConfig-version.cmake
+[4.342s] -- Installing: /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.xml
+[4.344s] Invoked command in '/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/practica_1/ros2_ws/install/servicio_suma:/workspace/practica_1/ros2_ws/install/primer_paquete:/workspace/practica_1/ros2_ws/install/p2pkg:/workspace/practica_1/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake --install /workspace/practica_1/ros2_ws/src/interfaz_servicio_suma/build/interfaz_servicio_suma

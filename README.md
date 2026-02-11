@@ -139,7 +139,7 @@ Esto nos muestra un gráfico donde aparecen los nodos y los topics que están ac
 
 
 ### Servicios
-A continuación, se va a crear un servicio que nos va a sumar dos enteros. Para ello copia la carpeta `servicio_suma` en `~/ros2_ws/src`. Seguidamente, ejecuta `colcon build` desde la terminal, dentro del directorio `~/ros2_ws`. De esta forma ya habremos creado el servicio que nos va a permitir sumar dos enteros. Ahora lanza los siguientes comandos:
+A continuación, se va a crear un servicio que nos va a sumar dos enteros. Para ello copia las carpetas `servicio_suma` e `interfaz_servicio_suma` en `~/ros2_ws/src`. Seguidamente, ejecuta `colcon build` desde la terminal, dentro del directorio `~/ros2_ws`. De esta forma ya habremos creado el servicio que nos va a permitir sumar dos enteros. Ahora lanza los siguientes comandos:
 
 **NOTA:** Debes hacer que los archivos `add_two_ints_server.py` y `add_two_ints_client.py` sean ejecutables usando el comando `chmod u+x`.
 
@@ -162,7 +162,7 @@ ros2 run servicio_suma client 3 7
 ### Ejercicios
 1. Publica desde la terminal un mensaje, con la cadena de caracteres que desees al topic `/chatter`, para que este sea leído por el nodo `/listener`. Escribe los comandos que has tenido que ejecutar para que esto suceda. (Pista: Usa el comando `ros2 topic pub`)
 
-2. Cambia el servicio `servicio_suma` para que haga la siguiente operación: `a + b - c * d / e`, siendo `a, b, c, d, e` valores enteros (`int64`) pasados por línea de comandos, el resultado debe estar en formato `float64`. Describe que has tenido que hacer y los archivos que has tenido que modificar.
+2. Cambia el servicio `servicio_suma` para que haga la siguiente operación: `a + b - c * d / e`, siendo `a, b, c, d, e` valores enteros (`int64`) pasados por línea de comandos, el resultado debe estar en formato `float64`. Describe que has tenido que hacer y los archivos que has tenido que modificar. (Pista: tendrás que modificar también el paquete `interfaz_servicio_suma`)
 
 ## Parte 2: Nivel principiante
 Anteriormente se ha explicado cómo se crea un espacio de trabajo ROS2. A continuación, el objetivo es aprender a generar paquetes ROS2 y crear mensajes para que otros nodos publiquen este tipo de mensajes.

@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaz_servicio_suma",
+  "non_idl_tuples": [
+    "/workspace/practica_1/ros2_ws/src/interfaz_servicio_suma:srv/AddTwoInts.srv"
+  ]
+}

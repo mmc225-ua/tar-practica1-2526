@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interfaz_servicio_suma__py",
+		"source" : "build/interfaz_servicio_suma/interfaz_servicio_suma__py"
+	}
+}

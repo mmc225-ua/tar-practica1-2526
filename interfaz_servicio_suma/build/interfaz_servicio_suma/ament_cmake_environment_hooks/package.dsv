@@ -1,0 +1,4 @@
+source;share/interfaz_servicio_suma/local_setup.bash
+source;share/interfaz_servicio_suma/local_setup.dsv
+source;share/interfaz_servicio_suma/local_setup.sh
+source;share/interfaz_servicio_suma/local_setup.zsh
