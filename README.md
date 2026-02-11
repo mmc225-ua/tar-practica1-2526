@@ -145,7 +145,7 @@ A continuación, se va a crear un servicio que nos va a sumar dos enteros. Para 
 
 - Terminal 1:
 ```bash
-ros2 run servicio_suma service
+ros2 run servicio_suma server
 ```
 
 - Terminal 3:
