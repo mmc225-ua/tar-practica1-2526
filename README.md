@@ -296,7 +296,7 @@ Ahora ya se puede crear un nodo que publique en un topic información con el men
 Para crear estos dos nodos, que vamos a desarrollar en Python, ejecutamos los siguientes comandos:
 
 ```bash
-cd /workspace/ros2_ws/src/primer_paquete/src
+cd /workspace/ros2_ws/src/primer_paquete/primer_paquete
 touch nodo_envia.py
 touch nodo_recibe.py
 chmod u+x nodo_envia.py
