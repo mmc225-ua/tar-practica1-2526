@@ -1,0 +1,23 @@
+Arrancas wsl : 
+	-> wsl
+
+Accedes carpeta de la práctica, debes estar en : 
+	-> miguel@DESKTOP-LLUKHIJ:/mnt/c/Users/User/Desktop/UA/25-26/TAR/PRACTICAS/practica_1_2526$ 
+
+Abrir la app de DockerDesktop 
+
+Arrancas el container: 
+	-> ./run.sh
+
+En otra terminal, te situas de nuevo con wsl en la misma carpeta de la práctica, y ejecutas : 
+	-> ./connect_ros.sh
+
+//Ahora hay 2 terminales dentro del contenedor: 
+	-T1: para ejecutar el talker y dejarlo corriendo
+	-T2: para inspeccionar nodo topic
+	
+Mientras hayas arrancado el contenedor (T1) , el resto de terminales las arrancas igual que T2
+
+
+Al conectar a ros con ./connect_ros.sh en una nueva terminal, siempre cargar el entorno desde workspace : 
+	source /workspace/ros2_ws/install/local_setup.bash

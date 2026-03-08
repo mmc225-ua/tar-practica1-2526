@@ -1,0 +1,16 @@
+# ROS2 / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor/OS
+.DS_Store
+*.swp
+
+# Docs temporales
+~$*.docx
+*.tmp
